@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programming Basics</title>
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top heading and audio -->
+    <header class="top-banner">
+        <h1>Programming Basics Website</h1>
+        <p>Learn the foundations of coding step by step.</p>
+
+        <!-- Audio (put intro.mp3 in the same folder) -->
+        <audio controls>
+            <source src="intro.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="basics.html">What is Programming?</a>
+        <a href="languages.html">Languages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <!-- Box with basic info -->
+        <section class="info-box">
+            <h2>What you will learn</h2>
+            <p>
+                On this website you will learn the 
+                <span class="highlight">basic concepts</span> of programming such as 
+                <span class="highlight">variables</span>, 
+                <span class="highlight">conditions</span> and 
+                <span class="highlight">loops</span>.
+            </p>
+
+            <!-- List -->
+            <ul>
+                <li>What programming is and why it matters</li>
+                <li>How computers follow instructions</li>
+                <li>Popular languages: C, Python, Java</li>
+            </ul>
+
+            <!-- Using cite and underline -->
+            <p>
+                A simple definition of programming from 
+                <cite>Introduction to Programming</cite>.
+            </p>
+            <p>
+                <u>Always master the basics before moving to advanced topics.</u>
+            </p>
+        </section>
+
+        <!-- Image on the left and text on the right -->
+        <section class="image-with-text">
+            <!-- Put code-image.jpg in the same folder -->
+            <img src="code-image.jpg" alt="Code on a laptop screen">
+
+            <div class="image-text">
+                <h2>Why learn programming?</h2>
+                <p>
+                    Programming helps you solve problems, build apps and understand 
+                    how technology works in the real world.
+                </p>
+                <p>
+                    Even simple programs can automate boring tasks and make your life easier.
+                </p>
+            </div>
+        </section>
+
+        <!-- Simple form -->
+        <section class="contact-section">
+            <h2>Ask a question about programming</h2>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="question">Your question:</label><br>
+                <textarea id="question" name="question" rows="4" cols="40"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Programming Basics Website</p>
+    </footer>
+</body>
+</html>

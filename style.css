@@ -1,0 +1,99 @@
+/* General page style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+
+    /* Background image – put background.jpg in the same folder */
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Top banner */
+.top-banner {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar */
+.main-nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Info box (div with class) */
+.info-box {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Span highlight */
+.highlight {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Image with text box */
+.image-with-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.image-with-text img {
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.image-text {
+    flex: 1;
+}
+
+/* Contact form */
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact-section button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
